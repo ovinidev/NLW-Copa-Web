@@ -1,5 +1,4 @@
 export interface IPools {
-  count: number;
   pool: {
     title: string;
     id: string;
@@ -7,4 +6,5 @@ export interface IPools {
     ownerId: string;
     createdAt: Date;
   };
+  total: number;
 }

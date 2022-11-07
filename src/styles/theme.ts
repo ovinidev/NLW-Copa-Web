@@ -66,7 +66,7 @@ export const theme = extendTheme({
   styles: {
     global: {
       body: {
-        "-webkit-font-smoothing": "antialiased",
+        WebkitFontSmoothing: "antialiased",
         bg: "#121214",
       },
     },

@@ -18,7 +18,7 @@ export const axiosInstance = axios.create({
 export async function getPools() {
   const { data } = await axiosInstance.get<IPools>("pools");
 
-  return data.count;
+  return data.total;
 }
 
 export async function createPools(body: ICreatePoolsDTO) {
@@ -30,5 +30,5 @@ export async function createPools(body: ICreatePoolsDTO) {
 export async function getUsers() {
   const { data } = await axiosInstance.get<IUsers>("users");
 
-  return data.usersCounter;
+  return data.total;
 }

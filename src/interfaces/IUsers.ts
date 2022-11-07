@@ -6,5 +6,5 @@ export interface IUsers {
     createdAt: Date;
     avatarUrl: string | null;
   };
-  usersCounter: number;
+  total: number;
 }
