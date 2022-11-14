@@ -9,7 +9,7 @@ export const ButtonSubmit = ({ ...rest }: ButtonSubmitProps) => {
       h="3.6rem"
       bg="#F7DD43"
       color="#09090A"
-      fontSize="0.87rem"
+      fontSize={{ base: "0.7rem", "2xl": "0.87rem" }}
       fontWeight={700}
       borderRadius="4px"
       textTransform="uppercase"
